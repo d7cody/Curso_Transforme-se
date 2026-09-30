@@ -1,0 +1,15 @@
+main {
+  width: 80%;
+  height: auto;
+  margin: 2% auto;
+  border: 2px solid black;
+}
+
+#camada1 {
+  position: relative;
+  width: 20%;
+  height: 150px;
+  background-color: turquoise;
+  color: brown;
+  text-align: center;
+}
