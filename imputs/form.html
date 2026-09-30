@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulario 2</title>
+  </head>
+  <body>
+    <!-- Formularios -->
+    <form>
+      <!-- Tipo nome -->
+      <fieldset>
+        <legend>Dados pessoais</legend>
+
+        <!-- Tipo nome -->
+        <label for="nome">Digite seu nome:</label>
+        <input
+          type="text"
+          name="nome"
+          id="nome"
+          required
+          minlength="4"
+          maxlength="10"
+        />
+        <br />
+
+        <!-- Tipo email -->
+        <label for="email">Digite seu email:</label>
+        <input type="email" name="email" id="email" />
+        <br />
+
+        <!-- Tipo idade -->
+        <label for="numero">Digite sua idade:</label>
+        <input type="number" name="numero" id="numero" step="0.1" value="15" />
+        <br />
+
+        <!-- Tipo senha -->
+        <label for="">Digite sua senha:</label>
+        <input
+          type="password"
+          name="senha"
+          id="senha"
+          required
+          minlength="5"
+          maxlength="10"
+        />
+        <br />
+
+        <label for="check">Aceita os termos?</label>
+        <input type="checkbox" name="check" id="check" /> <br />
+
+        <label for="contap">Conta pessoal</label>
+        <input type="radio" name="conta" id="contap" /> Sim
+
+        <label for="contaj"></label>
+        <input type="radio" name="conta" id="contaj" /> Não
+
+        <p>
+          <input type="submit" value="Enviar" />
+          <input type="reset" value="Limpar" />
+        </p>
+      </fieldset>
+    </form>
+  </body>
+</html>
