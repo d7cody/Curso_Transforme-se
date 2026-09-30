@@ -1,0 +1,9 @@
+body {
+  background-color: crimson;
+}
+
+ul {
+  color: aquamarine;
+  list-style-type: lower-roman;
+  list-style-position: outside;
+}

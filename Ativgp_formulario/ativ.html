@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulario medico</title>
+  >
+    <div
+      style="
+        max-width: 400px;
+        margin: 50px auto;
+        padding: 30px;
+        border: 1px solid #f2f1f1;
+        border-radius: 8px;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        background-color: #ffffff;
+      "
+  </head>
+
+
+      
+  
+  <body>
+    <form action="" method="get">
+      <fieldset>
+        <legend>Agende sua consulta</legend>
+
+        <label for="paciente">Nome do paciente</label>
+        <input type="text" name="nome" id="paciente" /> <br />
+
+        <label for="data">Data da consulta</label>
+        <input type="date" name="consulta" id="data" />
+        <br />
+
+        <label for="">Especialidade Medica</label>
+        <select name="Especialidade" id="esp">
+          <option value="">Escolha</option>
+          <optgroup label="Clinica geral">
+            <option value="Or">ortopedista</option>
+            <option value="Ps">Psiquiatra</option>
+            <option value="Cg">Cirurgião</option>
+            <option value="Pd">pediatra</option>
+          </optgroup>
+
+          <optgroup label="Cardiologia">
+            <option value="Or">ortopedista</option>
+            <option value="Ps">Psiquiatra</option>
+            <option value="Cg">Cirurgião</option>
+            <option value="Pd">pediatra</option>
+          </optgroup>
+
+          <optgroup label="Demartologia">
+            <option value="Or">ortopedista</option>
+            <option value="Ps">Psiquiatra</option>
+            <option value="Cg">Cirurgião</option>
+            <option value="Pd">pediatra</option>
+          </optgroup>
+
+          <optgroup label="Pediatria">
+            <option value="Or">ortopedista</option>
+            <option value="Ps">Psiquiatra</option>
+            <option value="Cg">Cirurgião</option>
+            <option value="Pd">pediatra</option>
+          </optgroup>
+        </select> <br />
+
+        <label for="">Planos</label>
+        <select name="" id="">
+          <option value="Pt">Particular</option>
+          <option value="Uni">unimed</option>
+          <option value="Am">Amil</option>
+          <option value="Bs">Bradesco Saude</option>
+        </select> <br />
+
+        <label for="pc">Primeira consulta?</label>
+        <input type="radio" name="SIm" id="consulta"> Sim
+<input type="radio" name="pc" id="pc" /> Não
+<br />
+
+ <label for="acess">Necessidade de Acessibilidade no local:</label>
+        <br />
+        <input type="checkbox" name="rampa" id="" /> Rampa de acesso <br />
+        <input type="checkbox" name="interprete" id="" /> Intérprete de Libras
+        <br />
+        <input type="checkbox" name="caoGuia" id="" /> Espaço para Cão Guia
+        <br />
+
+<label for="guia">Guia médica ou Encaminhamento</label>
+<input type="file" name="guia" id="guia">
+<br />
+
+<input type="submit" value="Confirmar Agendamento" />
+      </fieldset>
+    </form>
+  </body>
+</html>

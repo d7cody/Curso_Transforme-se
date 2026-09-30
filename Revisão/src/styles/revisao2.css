@@ -1,0 +1,13 @@
+h1 {
+  background-color: black;
+  color: chartreuse;
+  text-align: center;
+  font-size: 40px;
+  text-transform: uppercase;
+}
+
+body {
+  background-image: url(https://imgs.search.brave.com/sm1UWfnJJigOtkayiRxsTNnjPJ9ebVxBhUfjS5GhkPg/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9naXRo/dWIuY29tL3VzZXIt/YXR0YWNobWVudHMv/YXNzZXRzL2IyNDRm/Njk5LTEzOTctNDg4/Mi1hYmJlLTRjOTVm/YmFiY2QyMg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
