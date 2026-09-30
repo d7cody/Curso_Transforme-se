@@ -1,0 +1,58 @@
+body {
+  background-color: black;
+}
+
+header {
+  position: absolute;
+  background-color: rgb(255, 136, 0);
+  color: rgb(0, 144, 240);
+  text-align: center;
+  width: 80%;
+  height: 15%;
+  top: 5%;
+  left: 10%;
+}
+
+nav {
+  position: absolute;
+  background-color: rgb(0, 110, 255);
+  color: rgb(255, 153, 0);
+  text-align: left;
+  width: 80%;
+  height: 8%;
+  top: 20%;
+  left: 10%;
+}
+
+#section1 {
+  position: absolute;
+  background-color: rgb(21, 4, 97);
+  color: blanchedalmond;
+  text-align: left;
+  width: 30%;
+  height: 50%;
+  top: 28%;
+  right: 60%;
+}
+
+#section2 {
+  position: absolute;
+  background-color: rgb(217, 255, 0);
+  color: rgb(0, 0, 0);
+  text-align: left;
+  width: 50%;
+  height: 50%;
+  top: 28%;
+  left: 40%;
+}
+
+footer {
+  position: absolute;
+  background-color: rgb(214, 43, 80);
+  color: blanchedalmond;
+  text-align: center;
+  width: 80%;
+  height: 10%;
+  top: 78%;
+  left: 10%;
+}
