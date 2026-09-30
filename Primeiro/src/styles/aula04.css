@@ -1,0 +1,12 @@
+/* Estilizador somente o ID */
+#caixa1 {
+  width: 200px;
+  height: 200px;
+  background-color: blueviolet;
+  margin: 10px 30px 10px 30px;
+  /* margin para lados especificos */
+  /* margin-top: ;
+  margin-left: ;
+  margin-right: ;
+  margin-bottom: ; */
+}
