@@ -1,0 +1,32 @@
+.container {
+  position: relative;
+  display: flex;
+  /* Direçao dos elementos */
+  flex-direction: row-reverse;
+  /* Alinhamento horizontal */
+  justify-content: center;
+  /* Alinhamento Vertical */
+  align-items: center;
+  width: 100%;
+  height: 800px;
+  border: 1px solid purple;
+}
+
+.elemento {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  text-align: center;
+}
+
+#div1 {
+  background-color: chocolate;
+}
+
+#div2 {
+  background-color: gold;
+}
+
+#div3 {
+  background-color: yellowgreen;
+}
